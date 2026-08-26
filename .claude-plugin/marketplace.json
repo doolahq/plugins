@@ -1,6 +1,6 @@
 {
   "name": "doola",
-  "description": "doola plugins for Claude Code -- company formation, bookkeeping, and tax tools via the doola MCP server.",
+  "description": "doola plugins for Claude Code -- form a US LLC through the doola MCP server.",
   "owner": {
     "name": "doola",
     "email": "support@doola.com",
@@ -11,7 +11,7 @@
       "name": "doola",
       "source": "./doola",
       "displayName": "doola",
-      "description": "Connects Claude Code to the doola MCP server for company formation, bookkeeping, and tax workflows -- look up company and compliance status, kick off filings, and pull financial data without leaving the editor.",
+      "description": "Form a Wyoming LLC end to end from a conversation: company name, industry, members, ownership, and filing with the Wyoming Secretary of State.",
       "version": "0.1.0",
       "author": {
         "name": "doola",
@@ -20,7 +20,7 @@
       "homepage": "https://mcp.doola.com",
       "repository": "https://github.com/doolahq/plugins",
       "license": "MIT",
-      "category": "productivity",
+      "category": "business",
       "keywords": ["doola", "doola formation", "doola.com", "mcp.doola.com"]
     }
   ]
