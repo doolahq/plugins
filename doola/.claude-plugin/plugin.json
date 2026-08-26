@@ -1,0 +1,13 @@
+{
+  "name": "doola",
+  "displayName": "doola",
+  "description": "Connects Claude Code to the doola MCP server for company formation, bookkeeping, and tax workflows -- look up company and compliance status, kick off filings, and pull financial data without leaving the editor.",
+  "version": "0.1.0",
+  "author": {
+    "name": "doola",
+    "url": "https://doola.com"
+  },
+  "homepage": "https://mcp.doola.com",
+  "license": "MIT",
+  "keywords": ["doola", "doola formation", "doola.com", "mcp.doola.com"]
+}
