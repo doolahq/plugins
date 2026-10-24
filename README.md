@@ -12,6 +12,11 @@ industry, members, ownership, and filing with the Wyoming Secretary of State.
 |---|---|---|
 | **doola** | Wyoming LLC formation, end to end, plus status on the companies you already have. | Remote MCP server at `https://mcp.doola.com`, connected over HTTP. |
 
+The server is also published to the [official MCP Registry](https://registry.modelcontextprotocol.io)
+as `io.github.doolahq/doola`, from [`server.json`](./server.json). Pushing a `server.json` change
+to `main` republishes it through `.github/workflows/publish-mcp-registry.yml`; bump `version` first,
+since the registry rejects a version it already has.
+
 ## Network endpoint & credentials
 
 The `doola` plugin talks to exactly one remote endpoint: **`https://mcp.doola.com`**, doola's
