@@ -41,6 +41,24 @@ grok plugin install doola@doola
 Or open `/plugin` (Claude Code) / `/plugins` (Grok Build) in the TUI and install from the
 Marketplace tab.
 
+Cline (or any client that takes a remote MCP server by URL): add doola as a remote server.
+In the Cline panel, open **MCP Servers** > **Remote Servers**, enter the name `doola` and the URL
+`https://mcp.doola.com`, choose **Streamable HTTP** and click **Add Server**. Or add it to
+`cline_mcp_settings.json` directly:
+
+```json
+{
+  "mcpServers": {
+    "doola": {
+      "type": "streamableHttp",
+      "url": "https://mcp.doola.com"
+    }
+  }
+}
+```
+
+From the Cline CLI: `cline mcp add doola https://mcp.doola.com --transport http --yes`.
+
 On first use you'll be prompted to sign in to your doola account via OAuth.
 
 ## Layout
