@@ -43,7 +43,16 @@ Marketplace tab.
 
 On first use you'll be prompted to sign in to your doola account via OAuth.
 
+Gemini CLI:
+
+```bash
+gemini extensions install https://github.com/doolahq/plugins
+```
+
 ## Layout
+
+`gemini-extension.json` -- the Gemini CLI extension manifest. It has to sit at the repo root;
+the repo carries the `gemini-cli-extension` topic so the Gemini CLI gallery indexes it.
 
 `.claude-plugin/marketplace.json` -- the Claude Code catalog. Lists the colocated
 [`doola/`](./doola) plugin (`source: ./doola`).

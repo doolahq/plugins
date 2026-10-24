@@ -1,0 +1,10 @@
+{
+  "name": "doola",
+  "version": "0.1.0",
+  "description": "Form a Wyoming LLC end to end from a conversation: company name, industry, members, ownership, and filing with the Wyoming Secretary of State.",
+  "mcpServers": {
+    "doola": {
+      "httpUrl": "https://mcp.doola.com"
+    }
+  }
+}
