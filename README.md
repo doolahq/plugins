@@ -38,6 +38,12 @@ grok plugin marketplace add doolahq/plugins
 grok plugin install doola@doola
 ```
 
+Gemini CLI:
+
+```bash
+gemini extensions install https://github.com/doolahq/plugins
+```
+
 Or open `/plugin` (Claude Code) / `/plugins` (Grok Build) in the TUI and install from the
 Marketplace tab.
 
@@ -51,6 +57,9 @@ On first use you'll be prompted to sign in to your doola account via OAuth.
 `.grok-plugin/marketplace.json` -- the Grok Build catalog, self-hosted copy of the same
 plugin. Submitted to the [xAI plugin marketplace](https://github.com/xai-org/plugin-marketplace)
 as a url source pinned to a commit SHA, with `source.path` set to `doola`.
+
+`gemini-extension.json` -- the Gemini CLI extension manifest. It has to sit at the repo root;
+the repo carries the `gemini-cli-extension` topic so the Gemini CLI gallery indexes it.
 
 `doola/.claude-plugin/plugin.json` -- the plugin manifest (name, version, author, license,
 keywords).
