@@ -2,8 +2,7 @@
   "name": "doola",
   "owner": {
     "name": "doola",
-    "email": "support@doola.com",
-    "url": "https://doola.com"
+    "email": "support@doola.com"
   },
   "metadata": {
     "description": "doola plugins for Cursor -- form a US LLC through the doola MCP server."
