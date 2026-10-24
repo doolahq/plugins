@@ -1,0 +1,13 @@
+{
+  "name": "doola",
+  "description": "Form a Wyoming LLC end to end from a conversation: company name, industry, members, ownership, and filing with the Wyoming Secretary of State.",
+  "version": "0.1.0",
+  "author": {
+    "name": "doola",
+    "email": "support@doola.com"
+  },
+  "homepage": "https://mcp.doola.com",
+  "repository": "https://github.com/doolahq/plugins",
+  "license": "MIT",
+  "keywords": ["doola", "doola formation", "doola.com", "mcp.doola.com"]
+}
