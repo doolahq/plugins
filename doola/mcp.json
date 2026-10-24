@@ -1,6 +1,7 @@
 {
   "mcpServers": {
     "doola": {
+      "type": "http",
       "url": "https://mcp.doola.com"
     }
   }

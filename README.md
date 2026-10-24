@@ -64,7 +64,7 @@ keywords).
 `doola/.cursor-plugin/plugin.json` -- the Cursor plugin manifest.
 
 `doola/.mcp.json` -- the MCP server declaration, pointing at `https://mcp.doola.com`.
-`doola/mcp.json` is the same declaration under the name Cursor discovers.
+`doola/mcp.json` is the same declaration in the shape Cursor expects (`type: http`).
 
 ## License
 
