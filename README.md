@@ -3,14 +3,15 @@
 The [doola](https://doola.com) plugin marketplace for **Claude Code**, **Grok Build**, and **Cursor**.
 
 This repo is a catalog containing a single plugin, `doola`, that connects your AI coding agent to
-the doola MCP server so you can form a Wyoming LLC end to end from a conversation -- company name,
-industry, members, ownership, and filing with the Wyoming Secretary of State.
+the doola MCP server so you can form a US LLC or C-Corp in any of the 50 states or DC, end to end
+from a conversation -- entity type and state, company name, industry, members or officers,
+ownership, and the state filing.
 
 ## Plugin
 
 | Plugin | What it does | How it works |
 |---|---|---|
-| **doola** | Wyoming LLC formation, end to end, plus status on the companies you already have. | Remote MCP server at `https://mcp.doola.com`, connected over HTTP. |
+| **doola** | LLC and C-Corp formation in any US state, end to end, plus status on the companies you already have. | Remote MCP server at `https://mcp.doola.com`, connected over HTTP. |
 
 The server is also published to the [official MCP Registry](https://registry.modelcontextprotocol.io)
 as `io.github.doolahq/doola`, from [`server.json`](./server.json). Pushing a `server.json` change

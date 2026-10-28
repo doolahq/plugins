@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.doolahq/doola",
   "title": "doola",
-  "description": "Form a Wyoming LLC from a conversation: name, industry, members, ownership, and state filing.",
-  "version": "0.1.0",
+  "description": "Form a US LLC or C-Corp in any state from a conversation: name, members, ownership, and filing.",
+  "version": "0.2.0",
   "websiteUrl": "https://doola.com",
   "repository": {
     "url": "https://github.com/doolahq/plugins",
