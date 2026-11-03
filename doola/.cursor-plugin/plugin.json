@@ -10,6 +10,7 @@
   "homepage": "https://mcp.doola.com",
   "repository": "https://github.com/doolahq/plugins",
   "license": "MIT",
+  "logo": "assets/logo.png",
   "keywords": ["doola", "doola formation", "doola.com", "mcp.doola.com"],
   "category": "integrations",
   "mcpServers": "./mcp.json"
